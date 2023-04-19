@@ -1,0 +1,57 @@
+.note{
+    background-color: #fef68a;
+	border-radius: 10px;
+	padding: 1rem;
+	min-height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.notefooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.note.new{
+    background-color: #67d7cc;
+}
+
+
+
+.save{
+    border-radius: 10px;
+    background-color: #e1e1e1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: linear-gradient(to right,#fef68a 50%,white 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: all 1s ease;
+}
+.save:hover{
+    background-position: left;
+}
+
+.save1{
+    border-radius: 10px;
+    background-color: #e1e1e1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: linear-gradient(to right,black 50%,#e1e1e1 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: all 1s ease;
+    transform: scale(1.2);
+    font-weight: 600;
+    height: 100%;
+}
+.save1:hover{
+    background-position: left;
+    color: white;
+}

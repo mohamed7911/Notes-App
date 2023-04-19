@@ -1,0 +1,8 @@
+:root{
+    --main-bg:black;
+}
+
+
+[data-theme="dark"]{
+    --main-bg:black;
+}
